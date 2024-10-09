@@ -1,0 +1,23 @@
+## Objective
+The aim of this assignment is to explore the correlation between CO2 emissions and temperature changes using PySpark for big data analysis.
+
+---
+
+## Key Tasks
+1. **Data Preprocessing:**
+   - Loaded and merged datasets containing CO2 emissions and temperature differences by country and year.
+   - Cleaned and cast the columns to appropriate data types for analysis.
+
+2. **Correlation Analysis:**
+   - Calculated the correlation coefficient between CO2 emissions and temperature changes to assess their relationship.
+
+---
+
+## Results
+- **Correlation Coefficient:** The correlation coefficient between CO2 emissions and temperature changes was found to be **0.2785**.
+  - This indicates a positive, but weak, correlation between CO2 emissions and temperature changes. As CO2 levels increase, temperature changes also increase, but the relationship is not strong.
+
+---
+
+## Conclusion
+While there is a positive correlation between CO2 emissions and temperature changes, it is relatively weak. Further analysis could involve more complex models or additional data to explore the factors influencing temperature change more comprehensively.
