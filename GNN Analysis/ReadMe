@@ -1,0 +1,52 @@
+# Venmo Data Analysis - Big Data Bandits
+
+## Objective
+This project analyzes Venmo transaction data using text analytics, social network analytics, predictive models, and Graph Neural Networks (GNN) to uncover patterns and insights into user behavior.
+
+---
+
+## Part 1: Text Analytics
+- **Goal:** Classify Venmo transactions based on description keywords and emojis.
+- **Process:**
+  - Loaded Venmo transaction data and applied classification using dictionaries.
+  - Analyzed user spending patterns by aggregating classified transactions over a 12-month period.
+  - Visualized spending trends across categories with confidence intervals.
+- **Result:** Identified user spending behaviors across different categories over the first year.
+
+---
+
+## Part 2: Social Network Analytics
+- **Assumptions:**
+  - Transactions create undirected edges between users in a graph.
+- **Metrics Calculated:**
+  - **Number of Friends:** Direct connections between users.
+  - **Friends of Friends:** Indirect connections in the network.
+  - **Clustering Coefficient:** Measures network clustering for a user.
+  - **PageRank:** Assesses user importance in the network.
+- **Key Results:**
+  - For user 1218774: 5 direct friends, 35 friends of friends, a clustering coefficient of 0.2, and a PageRank of 2.68e-07.
+
+---
+
+## Part 3: Predictive Analytics
+- **Models:**
+  - Recency-Frequency (RF) model
+  - RF + Spending Behavior
+  - Social Metrics
+  - Social + Spending
+- **Findings:**
+  - Spending behavior improves predictions in early months.
+  - Social network metrics require longer historical data for accurate predictions.
+
+---
+
+## Part 4: Graph Neural Networks (GNN)
+- **Task:** Use GNNs to predict transaction patterns and user behavior.
+- **Insights:**
+  - GNNs capture both local and global graph structures, providing deeper insights than traditional feature engineering.
+  - GNNs proved more efficient and scalable for graph-based data.
+
+---
+
+## Conclusion
+The analysis demonstrated that combining social metrics and spending behavior enhances predictive power, with GNNs offering a robust, scalable approach for understanding complex transactional relationships.
